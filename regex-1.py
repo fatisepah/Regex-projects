@@ -4,7 +4,7 @@ str='the price of oil is 65$ for 3boshke'
 print(re.findall(r'the price of oil is (\d+)\$ for (\d+)boshke',str))
 
 #################################
-
+#for serching salam in str2
 str2='salam fafa. salam mehdi. salam sara. salam soosan.'
 result=re.search(r'salam',str2)
 
